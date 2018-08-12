@@ -4,7 +4,7 @@ run
 
 ```bash
 mvn spring-boot:run
-``
+```
 
 ```bash
 curl http://localhost:8080/
