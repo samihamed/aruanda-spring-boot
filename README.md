@@ -1,11 +1,19 @@
+# How to run
+
+run
+
+```bash
+mvn spring-boot:run
+``
+
 ```bash
 curl http://localhost:8080/
 ```
 
 ```bash
 curl -H "Content-Type: application/json" -X POST -d '{
-    "firstName": "Bruno",
-    "lastName": "Krebs"
+    "firstName": "Sami",
+    "lastName": "Hamed"
 }'  http://localhost:8080/
 ```
 
@@ -17,7 +25,7 @@ curl -X DELETE http://localhost:8080/1
 ```bash
 curl -H "Content-Type: application/json" -X PUT -d '{
     "id": 6,
-    "firstName": "Bruno",
-    "lastName": "Simões Krebs"
+    "firstName": "Samedi",
+    "lastName": "Hamedi"
 }'  http://localhost:8080/6
 ```
